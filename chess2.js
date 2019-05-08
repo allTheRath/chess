@@ -620,16 +620,19 @@ document.querySelector('main').addEventListener('click', function(e) {
       }
       //    changePecies(e.target); only call it if 
     }    
-  } else {
-    if(!(document.querySelector('.bk'))) {
-      alert('Player white wins');
-      location.reload();
-    } else if(!(document.querySelector('.wk'))){
-      alert('Player black wins');
-      location.reload();
-    }
   }
+  win();   
 });
+
+function win() {
+  if(!(document.querySelector('.bk'))) {
+    alert('Player white wins');
+    location.reload();
+  } else if(!(document.querySelector('.wk'))){
+    alert('Player black wins');
+    location.reload();
+  }
+}
 
 let all = document.querySelectorAll('span');
 for(let i = 0; i < all.length; i++) {
