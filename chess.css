@@ -1,6 +1,9 @@
 html, body {
   margin: 0px;
   padding: 0px;
+  background-color: grey;
+
+  background-image: url("https://as2.ftcdn.net/jpg/00/55/73/89/500_F_55738991_cZ9W25RDRTAIdylzkyQFysBpEvyylNYE.jpg");
 }
 
 main {
